@@ -5,15 +5,21 @@
 #include <iostream>
 #include "algorithm.h"
 #include "vector"
+#include "string"
 using namespace std;
 
 int main()
 {
 	Solution solution;
-	vector<int> numb = { 7,8,6,2,5,4,8,3,7 };
-	int max = solution.maxArea(numb);
-	cout << max << endl;
-    std::cout << "Hello World!\n"; 
+	//vector<int> numb = { 7,8,6,2,5,4,8,3,7 };
+	//int max = solution.maxArea(numb);
+	//cout << max << endl;
+	string str1 = solution.intToRoman(1994);
+	std::cout << str1 << endl;
+
+	cout << "Hello World!\n" << endl;
+
+
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
