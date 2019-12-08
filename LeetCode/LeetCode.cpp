@@ -3,9 +3,16 @@
 
 #include "pch.h"
 #include <iostream>
+#include "algorithm.h"
+#include "vector"
+using namespace std;
 
 int main()
 {
+	Solution solution;
+	vector<int> numb = { 7,8,6,2,5,4,8,3,7 };
+	int max = solution.maxArea(numb);
+	cout << max << endl;
     std::cout << "Hello World!\n"; 
 }
 
