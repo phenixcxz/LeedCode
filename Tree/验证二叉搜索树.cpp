@@ -7,7 +7,7 @@ public:
     int val;
     TreeNode* left;
     TreeNode* right;
-    TreeNode(int a = 0,TreeNode* l = nullptr,TreeNode* r = nullptr):val(a),left(l),right(r){}
+    TreeNode(int a = 0,TreeNode* l = NULL,TreeNode* r = NULL):val(a),left(l),right(r){}
 
 };
 
