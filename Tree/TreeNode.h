@@ -108,6 +108,7 @@ void travLevel(TreeNode * root){
         if(cur->right)
             q.push(cur->right);
     }
+    cout << endl;
 }
 
 TreeNode * CreateTree(int lo,int hi){
